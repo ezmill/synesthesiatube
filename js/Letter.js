@@ -9,7 +9,7 @@ function Letter(GEOMETRY, COLOR){
     this.material = new THREE.MeshBasicMaterial({
         envMap: textureCube,
         // side: 2,
-        refractionRatio: 0.98,
+        refractionRatio: 0.8,
         shading: THREE.FlatShading,
         color:this.color,
     });

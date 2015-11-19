@@ -89,7 +89,7 @@ function init() {
 	container.appendChild( renderer.domElement );
     
     var urls = [];
-    var path = "assets/textures/skybox/"
+    var path = "assets/textures/Citadella2/"
     var format = ".jpg";
     var urls = [
         path + 'px' + format, path + 'nx' + format,
@@ -106,7 +106,7 @@ function init() {
     canv = document.createElement("canvas");
     canv.width = 1024;
     canv.height = 1024;
-    document.body.appendChild(canv);
+    // document.body.appendChild(canv);
 	ctx = canv.getContext("2d");
 	// ctx.fillStyle = "red";
 	// ctx.fillRect(0,0,canv.width,canv.height);
